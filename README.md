@@ -31,3 +31,88 @@ The app uses the PokeAPI to explore Pokemon location areas, discover Pokemon, ca
 
 ```bash
 npm run dev
+```
+
+```text
+Pokedex > map
+Pokedex > explore pastoria-city-area
+Pokedex > catch pidgey
+Pokedex > inspect pidgey
+Pokedex > pokedex
+Pokedex > exit
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/alikessen/pokedex.git
+cd pokedex
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+## Scripts
+
+Build the TypeScript project:
+
+```bash
+npm run build
+```
+
+Run the CLI:
+
+```bash
+npm run dev
+```
+
+Run tests:
+
+```bash
+npm run test
+```
+
+## Tech Stack
+
+- TypeScript
+- Node.js
+- Vitest
+- PokeAPI
+
+## Project Structure
+
+```text
+src/
+├── command_catch.ts
+├── command_exit.ts
+├── command_explore.ts
+├── command_help.ts
+├── command_inspect.ts
+├── command_map.ts
+├── command_mapb.ts
+├── command_pokedex.ts
+├── main.ts
+├── pokeapi.ts
+├── pokecache.ts
+├── repl.ts
+└── state.ts
+```
+
+## API
+
+This project uses the free PokeAPI to fetch Pokemon and Pokemon location area data.
+
+## Author
+
+Ali Kesen
